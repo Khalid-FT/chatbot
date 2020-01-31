@@ -1,0 +1,358 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That is helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "teacher",
+         "patterns": ["Who is benhmed"],
+         "responses": ["He is your teacher"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "Definition_fst",
+         "patterns": ["What is FSTT?"],
+         "responses": ["FSTT is Faculty of sciences and techniques of Tangier .Created in 1995, the FSTT is one of the eight institutions of the Abdelmalek Essaadi University.","FST is faculty of science and technologies"],
+         "context": [""]
+        },
+        {"tag": "Where",
+         "patterns": ["Where is FSTT?"],
+         "responses": ["FSTT is located in Boukhalef Tangier near the airport Ibn batota, Ancienne Route de l'airoport, Km 10, Ziaten. BP : 416. Tanger - Maroc"],
+         "context": [""]
+        },
+        {"tag": "Phone",
+         "patterns": ["How can i contact the faculty ?"],
+         "responses": ["this is the Phone number : -Tel : + 212 (0) 5 39 39 39 54/55; -Fax : +212 (0) 5 39 39 39 53; -Email : administration(at)fstt.ac.ma"],
+         "context": [""]
+        },
+        {"tag": "departements",
+         "patterns": ["How many departements are in FSTT?"],
+         "responses": ["Nine departements: Life Sciences, Earth Sciences, Chemical Engineering, Physics, Mathematics, Computer Engineering, Electrical Engineering and Mechanical and Language"],
+         "context": [""]
+        },
+        {"tag": "dean",
+         "patterns": ["Who is the dean of the faculty ?"],
+         "responses": ["Pr. Mohamed ADDOU"],
+         "context": [""]
+        },
+        {"tag": "members_of_the_Pedagogical",
+         "patterns": ["who are the members of the Pedagogical Commission ?"],
+         "responses": ["Mustapha DIANI-Mohammed BAKKALI-Mustapha EL METOUI-Abdelhamid-ROSSI Noureddine-CHOUAIBI Mohcine-BENNANI MECHITA-Kaltoum DERFOUFI-Mustapha OUARDOUZ-Said HAMDOUNE-Abdelali ASTITO-El Mokhtar Ennaimi-Abderrahim GHADI-Anouar Abdelhakim BOUDHIR-SaidBENAOUICHA-Mohammed JBILOU-Abdesslam ARHRIB-Mohamed CHABBI-Ahmed RECHIA-Driss EL MESSAOUDI-Rachid OUCHALHI-Houda EL AYADI-Fatima BAHRAOUI-Mohamed Amine DAOUD-Mohamed BEN AHMED-Fathia ALISTIQSA"],
+         "context": [""]
+        },
+        {"tag": "programs_of_DEUST",
+         "patterns": ["what are the education programs of DEUST ?"],
+         "responses": ["The mission of the Tangier FST is to provide higher education in initial and continuing education and to carry out all research work in the disciplinary fields of science and technology and engineering sciences in particular.As part of the educational reform, the Tangier FST has adopted the architecture of the LMD system: Bachelor / Master / Doctorate. It prepares and delivers diplomas: -DEUST: Diploma of University Studies in Science and Technology. -LST: Bachelor of Science and Technology. -MST: Master Sciences and Techniques -STATE ENGINEERING DEGREE -Doctorate in Science and Technology -Alongside these diplomas, the FST is also authorised to award : -DUT: University Diploma in Technology"],
+         "context": [""]
+        },
+        {"tag": "programs_of_LST_or_bachelor",
+         "patterns": ["what are the education programs of LST or bachelor?"],
+         "responses": ["LST or bachelor programs: -Computer Engineering -industrial engineering -Electronics, electrical engineering and automation -Biotechnologies (Options: animal and plant) -Civil Engineering -Applied Geosciences -Mathematical Engineering -STATISTICAL ENGINEERING -CHEMICAL ANALYSIS TECHNIQUES (TAC) -Industrial and Production Design (DIP) -Renewable Energies (RE) -Process Engineering"],
+         "context": [""]
+        },
+        {"tag": "engineering_fields",
+         "patterns": ["what are the education programs in engineering fields ?"],
+         "responses": ["Engineering fields: -Geoinformation -Industrial management and organization -Software and computer systems (LSI) -Electronics, Electrical Engineering and Automation (EEA) -Design Fabrication Mechanical Design and Innovation (DFMI"],
+         "context": [""]
+        },
+        {"tag": "goal_MBD",
+         "patterns": ["what is the goal of mobiquity & big data Master program?"],
+         "responses": ["the goal of mobiquity & big data Master program  is the extraction of relevant information from data and the mobility of systems is gradually becoming top priority of the various government institutions or the private sector, accordingly, new jobs are emerging. To accompany this vast movement, it is imperative to offer specialized training in this sector of activity.Recently, Big Data and mobicity have become real strategic and economic issue. Processing"],
+         "context": [""]
+        },
+        {"tag": "Masters",
+         "patterns": ["what are the education programs in MST Masters ?"],
+         "responses": ["Master Programs:- Energy georesources and reservoirs (GEORESERVES) -Coastal Sciences Multidisciplinary Approach -Applied Analysis and Statistical Engineering -Cellular and Molecular Bases in Biotechnology -Marine Environment - Exploitation of marine aquaculture resources -Civil Engineering -Materials Engineering for Plastics and Metallurgy -Energy Engineering -Mobiquity and Big Data -Environmental Sciences -Computer and Mobile Systems"],
+         "context": [""]
+        },
+        {"tag": "the_head_of_departement_Computer",
+         "patterns": ["Who is the head of departement of computer engineering?"],
+         "responses": ["Pr.EN-NAIMI EL MOKHTAR , Email : ennaimi@gmail.com"],
+         "context": [""]
+        },
+        {"tag": "the_head_of_MBD",
+         "patterns": ["Who is the head of departement of Master Mobiquity and big data?"],
+         "responses": ["Pr.Ben Ahmed Mohamed"],
+         "context": [""]
+        },
+        {"tag": "Ben_Ahmed",
+         "patterns": ["Who is Ben Ahmed Mohamed?"],
+         "responses": ["Pr.Benhmed Mohamed is is the head of departement of Master Mobiquity and big data"],
+         "context": [""]
+        },
+        {"tag": "Link",
+         "patterns": ["Link of Posts of the faculty ?"],
+         "responses": ["You can find the latest posts & news of the faculty http://www.fstt.ac.ma/Portail/"],
+         "context": [""]
+        },
+        {"tag": "clubs",
+         "patterns": ["What are the clubs ?"],
+         "responses": ["List f clubs : -Greenology -CADAC -Club Génie civil -Club les sophistes -Future Leaders -Club Enactus -Club Design & Photography -Club d'astronomie -Club Echec & Mat"],
+         "context": [""]
+        },
+        {"tag": "agenda",
+         "patterns": ["What are the schedule and agenda of the students ?"],
+         "responses": ["This is the link of schedules of all programs http://www.fstt.ac.ma/Portail/espace-etudiant/emplois-du-temps"],
+         "context": [""]
+        },
+        {"tag": "working_hours",
+         "patterns": ["What is the work schedule for student reception?", "working hours", "when FSTT is open?", "when do you close ?"],
+         "responses": ["working hours : Monday to Friday, from 9h to 17h"],
+         "context_set": [""]
+        },
+        {"tag": "Info_branches",
+         "patterns": ["What are the Masters that exist in Computer Science on your faculty", "The existing Masters  ?", "Masters ?", "The engineering cycles you have?" ],
+         "responses": [" Master Mobiquity and Big Data , Master computer and mobile system , Cycle LSI "],
+         "context_set": [""]
+        },
+        {"tag": "formations",
+         "patterns": ["The existing formations  ?","what formations fstt provides", "Formations ?" , "What are formations do you have in this faculty ?" ],
+         "responses":["DEUST, Cycle Licence, Cycle Master, Cycle Ingenieur"],
+         "context_set": [""]
+        },
+        {"tag": "LST",
+         "patterns": ["What is LST ?" ],
+         "responses":["LST is degree that mean third year on science and technology University","LSI is Logiciels et Systemes intelligents"],
+         "context_set": [""]
+        },
+        {"tag": "educational_training",
+         "patterns": ["What kind of educational training does FSTT offer?" ],
+         "responses":["Tangier FST provides higher education in initial and continuing education"],
+         "context_set": [""]
+        },
+        {"tag": "initial_training",
+         "patterns": ["how about the initial training ?" ],
+         "responses":["As part of the educational reform, the Tangier FST adopted the architecture of the LMD system: License / Master / Doctorate. It prepares and issues diplomas: -DEUST: University Diploma in Science and Technology -LST: Bachelor of Science and Technology -MST: Master Sciences and Techniques -DIPLOMA OF STATE ENGINEER -Doctorate in Science and Technology In addition to these diplomas, the FST is also empowered to issue: -DUT: University Diploma in Technology"],
+         "context_set": [""]
+        },
+        {"tag": "diploma",
+         "patterns": ["You will take the diploma after how long in terms of the years of studies " ],
+         "responses":["It depends on the type of diploma if it is DEUST it is after 2 years of which we study 4 semesters for the Bachelor degree  you have to spend 3 years And for the Master it is Bac + 5"],
+         "context_set": [""]
+        },
+        {"tag": "continuous_training",
+         "patterns": ["how about continuous training?"],
+         "responses":["The Faculty of Science and Technology of Tangier launches, for the 2019-2020 academic year, continuing education courses culminating in University Diploma.► Diploma of the Approval Cycle (DCA): (Bac + 3): This training is intended for specialized technicians of companies and holders of DEUG, DUT, BTS or diploma recognized equivalent (Bac + 2 minimum).It allows leavers to quickly integrate into the professional world or to adapt to new functions within the company. This training cycle lasts one year.► Diploma of the Cycle of Specialized Higher Studies (DCESS): (Bac + 5): This training is aimed at graduates of Bac + 3 minimum in situation of activity or not The device set up attaches, in its design, to create conditions for integration, reinsertion or adaptation to new functions in the company. This training cycle lasts two years.For more information, contact Pr. Omar AKOURRI: Project manager - Responsible for continuing education.Tel: +212664913791 / +212660104681 | Email: akourri.omar@hotmail.com / fc@fstt.ac.ma"],
+         "context_set": [""]
+        },
+        {"tag": "masters_or_engineer_cycles",
+         "patterns": ["There are just masters or also there are engineer cycles at fst?"],
+         "responses":["Yes Each fst includes 2 different study paths The first is to have Master in science and techniques in various fields which is equivalent to engineering.The second is the engineering cycle"],
+         "context_set": [""]
+        },
+        {"tag": "Fsts_Morocco",
+         "patterns": ["Are all fst in Morocco the same" ],
+         "responses":[" There is diversity from one fst to another.The difference is in the sectors, which are not the same everywhere, the teachers' skills and practical work point of view let take the example of fst Tangier it offers 4 options for the DEUST yet fst Alhoceima it offers only 2 options ( bcg and mip)"],
+         "context_set": [""]
+        },
+        {"tag": "condition",
+         "patterns": ["What is the condition for integrating engineering cycle, license or Master at fst"],
+         "responses": ["For the license it is to have the DEUST diploma of the faculty where there is this license not of other establishment (faculty of science) or fst of other city, moreover there are fields with very good reputation citing for example civil engineering at fst Tangier, computer engineering They set thresholds for access The Master and the engineering cycle are not accessible to everyone because they are by selection and written and sometimes oral competition"],
+         "context_set": [""]
+        },
+        {"tag": "subjects_exams",
+         "patterns": ["How many school subjects and exams in each semester" ],
+         "responses":["There is 2 semesters per the year Each semester includes 6 modules For each module there will be 2 exams"],
+         "context_set": [""]
+        },
+        {"tag": "MIPC",
+         "patterns": ["What is MIPC" ],
+         "responses":["Math computer science physics chemistry"],
+         "context_set": [""]
+        },
+        {"tag": "GEGM",
+         "patterns": ["What is GeGm?" ],
+         "responses":["Is option in fst tanger mean electric and mecanic engineering"],
+         "context_set": [""]
+        },
+        {"tag": "branches_informatics_MST",
+         "patterns": ["how many branches in informatics(IT) for the MST ?" ],
+         "responses":["there is two branches MBD and SIM"],
+         "context_set": [""]
+        },
+        {"tag": "MBD_mean",
+         "patterns": ["what does MBD mean ?" ],
+         "responses":["MBD refers to Mobiquity and BIG DATA"],
+         "context_set": [""]
+        },
+        {"tag": "SIM_mean",
+         "patterns": ["what does SIM mean ?" ],
+         "responses":["SIM refers to computer and mobile system"],
+         "context_set": [""]
+        },
+        {"tag": "LSI_mean",
+         "patterns": ["What does LSI means ?" ],
+         "responses":["LSI refers to Software & Intelligent Systems"],
+         "context_set": [""]
+        },
+        {"tag": "cordinator_MBD",
+         "patterns": ["who is the cordinator of the MBD ?" ],
+         "responses":["the cordinator is M. Ben Ahmed Mohamed"],
+         "context_set": [""]
+        },
+        {"tag": "cordinator_SIM",
+         "patterns": ["who is the cordinator of SIM ?" ],
+         "responses":["the cordinator is M. Amrani Chakir"],
+         "context_set": [""]
+        },
+        {"tag": "cordinator_LSI",
+         "patterns": ["who is the cordinator of LSI ?" ],
+         "responses":["the cordinator is M. Abderrahim Ghadi"],
+         "context_set": [""]
+        },
+        {"tag": "branches_deust",
+         "patterns": ["How many branches exist in deust?" ],
+         "responses":["4 branches"],
+         "context_set": [""]
+        },
+        {"tag": "LC",
+         "patterns": ["Who is the professor of the module LC" ],
+         "responses":["The module is teached by Mme.wafae cherkaoui and Mme.derfoufi and Mr.ouchen"],
+         "context_set": [""]
+        },
+        {"tag": "validation",
+         "patterns": ["What is the validation note?" ],
+         "responses":["10"],
+         "context_set": [""]
+        },
+        {"tag": "Rattrapage",
+         "patterns": ["What is the rattrapage note?" ],
+         "responses":["5"],
+         "context_set": [""]
+        },
+        {"tag": "compensation",
+         "patterns": ["What is the compensation note?" ],
+         "responses":["7"],
+         "context_set": [""]
+        },
+        {"tag": "modules_MIPC",
+         "patterns": ["What are the modules of the MIPC sector" ],
+         "responses":["this link you will be useful : http://www.fstt.ac.ma/Portail/formation-initiale/deust?pid=123&sid=124:mathematiques-informatique-physique-chimie"],
+         "context_set": [""]
+        },
+        {"tag": "modules_BCG",
+         "patterns": ["What are the modules of the BCG sector" ],
+         "responses":["this link you will be useful : http://www.fstt.ac.ma/Portail/formation-initiale/deust?pid=123&sid=125:biologie-chimie-geologie"],
+         "context_set": [""]
+        },
+        {"tag": "study_LST",
+         "patterns": ["Can you study LST and you still have somes subjects on DEUST?" ],
+         "responses":["Yes , but only if you still have two subjets or less."],
+         "context_set": [""]
+        },
+        {"tag": "MST",
+         "patterns": ["what is MST" ],
+         "responses":["MST is Master sciences et techniques"],
+         "context_set": [""]
+        },
+        {"tag": "DIP",
+         "patterns": ["What is DIP?" ],
+         "responses":["Industrial and production design"],
+         "context_set": [""]
+        },
+        {"tag": "cordinator_process",
+         "patterns": ["The coordinator  of process engineering " ],
+         "responses":["Mr.AZAAR Khalid"],
+         "context_set": [""]
+        },
+        {"tag": "cordinator_DIP",
+         "patterns": ["The coordinator of Industrial and production design ?" ],
+         "responses":["Mr.El mesbahi abdelilah"],
+         "context_set": [""]
+        },
+        {"tag": "common_core",
+         "patterns": ["The common core that exist in FSTT" ],
+         "responses":["MIPC/GE-GM/MIP/BCG"],
+         "context_set": [""]
+        },
+        {"tag": "modules_DIP",
+         "patterns": ["what are the modules studied for the industrial engineering sector ?" ],
+         "responses":["Mathématiques pour l'ingénieur Énergétiques et mécaniques des fluides Techniques d'expression et de communication Électricité industriel Électronique analogique C++/java"],
+         "context_set": [""]
+        },
+        {"tag": "requested_training",
+         "patterns": ["What is the most requested training in the job market?" ],
+         "responses":["Industrial engineering: undergraduate or engineering cycle, because you can work either in logistics, method, process, maintenance, Quality, design, production, product Ect"],
+         "context_set": [""]
+        },
+        {"tag": "DEUST",
+         "patterns": ["What is DEUST ?" ],
+         "responses":["University Scientific and Technical Degree"],
+         "context_set": [""]
+        },
+        {"tag": "Training_fst",
+         "patterns": ["FSTT offers what as training?" ],
+         "responses":["FSTT offers training in all scientific specialties such as computer science, chemistry, physics, math "],
+         "context_set": [""]
+        },
+        {"tag": "semesters",
+         "patterns": ["How many semesters in year?" ],
+         "responses":["two semesters"],
+         "context_set": [""]
+        },
+        {"tag": "computer_engineering_license",
+         "patterns": ["What directions are available for further studies for computer engineering license student?" ],
+         "responses":["The potential directions for pursuing studies are of the following types: Masters in IT, Masters in e-Technologies, Masters in automatic or industrial IT or business intelligence and engineering training."],
+         "context_set": [""]
+        },
+        {"tag": "percentage",
+         "patterns": ["what is the percentage of TP and CC?" ],
+         "responses":["depend of teacher"],
+         "context_set": [""]
+        },
+        {"tag": "modules_semesters",
+         "patterns": ["How many modules we study in one semestre in FSTT?" ],
+         "responses":["We study 6 modules each semestre"],
+         "context_set": [""]
+        },
+        {"tag": "process_engineering",
+         "patterns": ["What is process engineering? Which trades to work on and which modules to study?" ],
+         "responses":["Process engineering is production engineering sector, it is in relation to industry and all kinds of initiating step (transforming raw material) to finished product, the various controls, studies, operations choosing the materials equipment to achieve result, optimizing the cost and time of production and which will satisfy the customer. The professions to occupy production manager, process engineer, work in any industrial chain but on condition of having bac +5 in the specialty the license alone is absolutely insufficient"],
+         "context_set": [""]
+        },
+        {"tag": "right_choice",
+         "patterns": ["Which is the right choice among: fst, est, fs and preparatory class?" ],
+         "responses":["If you are person who likes theory, scientific research then fs. You want to study trade know-how totally and you want lot of practice then EST is the right way. You want to memorize the exercises to pass the CNC then guarantee engineering cycle by hand but with 0% baggage then preparatory class. FST for mixture of all these three there is theory, the practice of training courses with good reputation and to continue the bac +5 there are lot of obstacles and filters so you must be among the best of hundreds of competitors"],
+         "context_set": [""]
+        },
+        {"tag": "modules_semesters",
+         "patterns": ["How many modules we study in one semestre in FSTT?" ],
+         "responses":["We study 6 modules each semestre"],
+         "context_set": [""]
+        },
+        {"tag": "continuing_education",
+         "patterns": ["What are FSTT continuing education programs?" ],
+         "responses":["Les formations continues sont:*D.C.E.S.S -Cycle des Etudes Supérieures Spécialisées"],
+         "context_set": [""]
+        },
+        {"tag": "interested",
+         "patterns": ["Why the FSTT is just interested in everyone who is mechanical industrial  and neglects science such as chemistry and biology !! ??" ],
+         "responses":["Simply because it is located in industrial city"],
+         "context_set": [""]
+        },
+        {"tag": "start",
+         "patterns": ["what time courses start at the morning" ],
+         "responses":["8:30 "],
+         "context_set": [""]
+        },
+        {"tag": "end",
+         "patterns": ["what time courses end" ],
+         "responses":["17:30 "],
+         "context_set": [""]
+        }
+   ]
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		input{
+			border: 0;
+		    background-color: #f2f2f2;
+		    height: 38px;
+		    outline: 0;
+		    width: 261px;
+		    border-radius: 23px;
+		    font-size: 16px;
+		    padding: 10px 15px;
+		    color: #4c4848;
+		}
+		#convo{
+			height: 250px;
+		    overflow: auto;
+		    width: 284px;
+		    margin-bottom: 23px;
+		}
+		#convo div{
+			padding: 10px 0;
+		}
+		#convo div p{
+			background-color: #f1f0f0;
+			margin: 0;
+		    display: inline-block;
+		    padding: 6px 10px;
+		    border-radius: 23px;
+		    font-size: 14px;
+		    letter-spacing: 1px;
+		    font-weight: 300;
+		    color: #4c4848;
+		}
+		p.botres{
+		background-color: #588bd2 !important;
+		color: white !important;
+		}
+		#container{
+			display: flex; 
+			justify-content: center; 
+			align-items: center; 
+			height: 100vh; 
+			flex-direction: column;
+		}
+		/* width */
+		::-webkit-scrollbar {
+		  width: 5px;
+		}
+
+		/* Track */
+		::-webkit-scrollbar-track {
+		  background: #f1f1f1;
+		}
+
+		/* Handle */
+		::-webkit-scrollbar-thumb {
+		  background: #888;
+		}
+
+		/* Handle on hover */
+		::-webkit-scrollbar-thumb:hover {
+		  background: #555;
+		}
+	</style>
+</head>
+<body>
+
+	<div id="container">
+		<div id="convo">
+		</div>
+		<input type="" name="textinput" placeholder="Ask me something & hit Enter" id="textInput">
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script>
+		function getBotResponse() {
+			var rawText = $("#textInput").val();
+			var userHtml = '<div><p>' + rawText + '</p></div>';
+			$("#textInput").val("");
+			console.log(userHtml);
+			$("#convo").append(userHtml);
+			var objDiv = document.getElementById("convo");
+			objDiv.scrollTop = objDiv.scrollHeight;
+			//document.getElementById('userInput').scrollIntoView({block: 'start', behavior: 'smooth'});
+			$.get("/get", { msg: rawText }).done(function(res) {
+    			console.log(res);
+    			console.log(1);
+				var botHtml = '<div><p class="botres">' + res + '</p></div>';
+				$("#convo").append(botHtml);
+				var objDiv = document.getElementById("convo");
+    			objDiv.scrollTop = objDiv.scrollHeight;
+				//document.getElementById('userInput').scrollIntoView({block: 'start', behavior: 'smooth'});
+			});
+			
+		}
+		$("#textInput").keypress(function(e) {
+			if(e.which == 13) {
+				getBotResponse();
+			}
+		});
+	</script>
+</body>
+</html>
